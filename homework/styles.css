@@ -1,0 +1,77 @@
+.home-page {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.book-list {
+    list-style: none;
+}
+
+.item {
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.edit {
+    padding: 5px 10px;
+    margin-left: 330px;
+}
+
+.button,
+.button-save,
+.button-close,
+.button-add,
+.button-save-add {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 275px;
+    cursor: pointer;
+  }
+
+.button-save, 
+.button-close,
+.button-save-add {
+    width: 10%;
+    display: block;
+    margin: 10px auto;
+}
+
+.button-close {
+    background: orange;
+}
+
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.page-preview {
+    width: 40%;
+    margin: 0 auto;
+    display: none;
+    list-style: none;
+}
+
+
+.page-edit,
+.page-add {
+    display: none;
+}
+
+
+.input{
+    width: 40%;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+}
